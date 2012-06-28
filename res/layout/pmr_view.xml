@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_pmr_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true" >
+
+    <com.t2.pmr.PmrView
+        android:id="@+id/lay_pmr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.t2.pmr.CaptionView
+        android:id="@+id/lbl_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:focusable="false" />
+
+    <com.t2.pmr.OutlineTextView
+        android:id="@+id/lbl_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="100dp"
+        android:text="Tap to Start"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
